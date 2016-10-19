@@ -1,0 +1,46 @@
+
+title: "Who's Tommy"
+address: "Avenida del Arte I - Albacete"
+url: ""
+email: ""
+description: ""
+about: ""
+
+# CONFIG
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Project structure config
+#permalink: /blog/:year/:title.html
+
+# Build settings
+markdown: kramdown
+#theme: minima
+
+#gems:
+#  - jekyll-seo-tag
+#  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+
+#include: ["_pages"]
+
+exclude: ["_app",
+         "Gemfile",
+         "Gemfile.lock",
+         "gulpfile.js",
+         "node_modules",
+         "package.json"]
+
+#collections:
+#  example_col:
+#    output: true
+#    permalink: example
+
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: example
+#    values:
+#      layout: example

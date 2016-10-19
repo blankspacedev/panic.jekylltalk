@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog
+icon: pencil
+nav_weight: 2
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+
+      {% for post in site.posts %}
+        <h3><a href="{{post.url}}"> {{post.title}} </a></h3>
+        <img class="img-responsive" src="images/{{post.image}}.jpg" alt=""/>
+        <h3>By: {{post.author}}</h3>
+        <hr>
+        <p>
+          {{post.excerpt}}
+        </p>
+        <a href="{{post.url}}">Seguir Leyendo</a>
+        <hr>
+        <br>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
